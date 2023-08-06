@@ -71,7 +71,6 @@ body{
   align-items: center;
   background-color: var(--Purple);
   margin: 0px -10px;
-  border: 1px solid red;
 }
 
 .caption, h1{
