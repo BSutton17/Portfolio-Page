@@ -182,9 +182,17 @@ footer{
   body{
     overflox-x: hidden;
   }
-  footer{
-    margin-left: 3px; 
+  img{
+    padding-right: 1px;
   }
-  .img{
-    width: 95%;
-}
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}  
