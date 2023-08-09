@@ -177,3 +177,14 @@ footer{
   padding-top: 10px;
 }
 
+/* mobile scaling */
+@media (max-width: 450px){
+  body{
+    overflox-x: hidden;
+  }
+    h1{
+      font-size: 32px;
+    }
+  .caption{
+    font-size: 16px;
+}
