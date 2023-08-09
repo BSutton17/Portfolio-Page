@@ -176,11 +176,16 @@ footer{
 #Contact{
   padding-top: 10px;
 }
-
 /* mobile scaling */
 @media (max-width: 450px){
   body{
     overflox-x: hidden;
+  }
+  h1{
+    font-size: 40px;
+  }
+  .caption{
+    font-size: 20px
   }
   img{
     padding-right: 1px;
@@ -191,8 +196,6 @@ footer{
   }
   
   footer{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    margin-left 1px:
   }
 }  
