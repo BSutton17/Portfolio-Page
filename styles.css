@@ -241,6 +241,8 @@ footer{
     position: relative;
     right: 25px;
   }
-
+   footer{
+    min-width: 100%;
+  }
 }  
 	  
