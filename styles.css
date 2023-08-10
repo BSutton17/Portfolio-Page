@@ -178,31 +178,41 @@ footer{
 }
 /* mobile scaling */
 @media (max-width: 450px){
+  
   .project-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns */
-  grid-template-rows: repeat(3, auto); /* 3 rows */
-  gap: 20px; /* Adjust the gap between tiles */
-  padding: 20px; /* Add some spacing around the tiles */
-}
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* 2 columns with equal width */
+    grid-template-rows: repeat(3, auto); /* 3 rows */
+    gap: 20px; /* Adjust the gap between tiles */
+    padding: 20px; /* Add some spacing around the tiles */
+    max-width: 900px; /* Limit the total width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .project-tile {
+    max-width: 100%; /* Ensure the tile doesn't exceed its container */
+    background-color: var(--Dark-Blue);
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-tile img {
+    width: 100%;
+    max-height: 200px; /* Limit the maximum height */
+    object-fit: cover;
+  }
+  
+  .project-tile .title {
+    flex-grow: 1; /* Allow the title to fill remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-tile:hover {
+    background-color: var(--Purple);
+  }
 
-.project-tile {
-  width: 100%;
-  max-width: 300px; /* Limit the maximum width */
-  z-index: 0;
-  background-color: var(--Dark-Blue);
-  text-align: center;
-  display: inline-block;
-  position: relative;
-}
-
-.project-tile img {
-  width: 100%;
-  max-height: 200px; /* Limit the maximum height */
-  object-fit: cover;
-}
-
-.project-tile:hover {
-  background-color: var(--Purple);
-}
 }  
