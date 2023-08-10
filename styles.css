@@ -5,6 +5,9 @@
   --Yellow: #E8AA42;
   --Tan:#FFE5B4;
 }
+body{
+   overflox-x: hidden;
+}
 
 *{
   box-sizing: border-box;
@@ -178,9 +181,6 @@ footer{
 }
 /* mobile scaling */
 @media (max-width: 450px){
-  body{
-    overflox-x: hidden;
-  }
   h1{
     font-size: 40px;
   }
@@ -200,9 +200,12 @@ footer{
     margin-left 1px:
   }
 
+  #email{
+    width: fit-content;
+  }
   .project-tile, .title, img{
     max-width: 350px;
-    min-width: 200px;
+    min-width: 190px;
     max-height: 225px;
     z-index: 0;
     }
@@ -233,10 +236,10 @@ footer{
   .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-gap: -5px; 
+    grid-gap: 5px; 
     justify-items: center; 
     position: relative;
-    right: 35px;
+    right: 25px;
   }
 
 }  
