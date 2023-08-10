@@ -184,6 +184,9 @@ footer{
   h1{
     font-size: 40px;
   }
+  h3{
+    font-size: 16px;
+  }
   .caption{
     font-size: 20px
   }
@@ -241,10 +244,11 @@ footer{
     position: relative;
     right: 25px;
   }
-   footer{
-    min-width: 111%;
+  footer{
+    min-width: 113%;
     position: relative;
-    right: 1%;
+    right: 2%;
   }
+
 }  
 	  
