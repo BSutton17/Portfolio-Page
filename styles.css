@@ -191,14 +191,14 @@ body{
     }
   h1{
     font-size: 40px;
-    margin-left: 5%;
+    left: 5%;
   }
   h3{
     font-size: 16px;
-    margin-left: 5%;
   }
   .caption{
-    font-size: 20px
+    font-size: 20px;
+    left: 5%;
   }
   header{
     display: flex;
