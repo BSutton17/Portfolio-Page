@@ -181,6 +181,9 @@ footer{
 }
 /* mobile scaling */
 @media (max-width: 450px){
+body{
+   overflow-x: hidden;
+}
   .welcome-section{
     width: 125%;
     }
