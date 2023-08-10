@@ -212,8 +212,11 @@ body{
   footer{
     margin-left 1px:
   }
+  section{
+    text-align: center;
+  }
   #projects{
-    font-size: 24px
+      font-size: 24px
   }
   #email{
     width: fit-content;
