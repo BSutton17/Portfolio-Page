@@ -181,6 +181,9 @@ footer{
 }
 /* mobile scaling */
 @media (max-width: 450px){
+  .welcome-section{
+    width: 110%;
+    }
   h1{
     font-size: 40px;
   }
@@ -245,9 +248,9 @@ footer{
     right: 25px;
   }
   footer{
-    min-width: 115%;
+    min-width: 113%;
     position: relative;
-    right: 3%;
+    right: 2%;
   }
 
 }  
