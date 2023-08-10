@@ -187,6 +187,7 @@ body{
   .welcome-section{
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 113.8%;
     }
   h1{
