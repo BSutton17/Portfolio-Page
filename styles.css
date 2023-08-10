@@ -183,7 +183,7 @@ footer{
 @media (max-width: 450px){
   .welcome-section{
     position: relative;
-    left: 10%;
+    left: 5%;
     }
   h1{
     font-size: 40px;
