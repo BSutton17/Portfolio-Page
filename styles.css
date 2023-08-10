@@ -185,6 +185,8 @@ body{
    overflow-x: hidden;
 }
   .welcome-section{
+    display: flex;
+    justify-content: center;
     width: 113.8%;
     }
   h1{
