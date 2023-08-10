@@ -6,7 +6,7 @@
   --Tan:#FFE5B4;
 }
 body{
-   /*overflow-x: hidden;*/
+   overflow-x: hidden;
 }
 
 *{
@@ -182,7 +182,8 @@ footer{
 /* mobile scaling */
 @media (max-width: 450px){
   .welcome-section{
-    width: 110%;
+    position: relative;
+    right: 10%;
     }
   h1{
     font-size: 40px;
