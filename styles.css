@@ -192,6 +192,10 @@ footer{
     justify-content: left;
   }
   
+  img{
+    padding-right: 1.5px;
+  }
+  
   footer{
     margin-left 1px:
   }
@@ -229,7 +233,7 @@ footer{
   .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
-    grid-gap: 2px; 
+    grid-gap: -5px; 
     justify-items: center; 
     position: relative;
     right: 35px;
