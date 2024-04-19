@@ -105,7 +105,7 @@ color: var(--Tan);
 
 h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 h3{
@@ -113,6 +113,27 @@ h3{
   bottom: 10px;
 }
 
+.language{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--Dark-Blue)
+}
+
+.hover-text {
+  display: none;
+}
+
+.language:hover + .hover-text{
+  color: var(--Tan);
+  text-align: center;
+  display: block;
+}
+
+
+.language:not(:hover) .hover-text {
+  display: none;
+}
 .project-tile, .title, img{
   max-width: 350px;
   min-width: 300px;
@@ -208,7 +229,7 @@ body{
   }
   
   footer{
-    margin-left 1px:
+    margin-left: 1px;
   }
   section{
     text-align: center;
