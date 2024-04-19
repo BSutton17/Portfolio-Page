@@ -7,6 +7,7 @@
 }
 body{
    overflow-x: hidden;
+   align-items: center;
 }
 
 *{
@@ -124,14 +125,23 @@ h3{
   display: none;
 }
 
-.language:hover + .hover-text{
+.hover-block:hover .hover-text{
   color: var(--Tan);
   text-align: center;
   display: block;
 }
 
+.hover-block a{
+  color: var(--Yellow);
+}
 
-.language:not(:hover) .hover-text {
+.hover-text:hover{
+  color: var(--Tan);
+  text-align: center;
+  display: block;
+}
+
+hover-block:not(:hover) .hover-text {
   display: none;
 }
 .project-tile, .title, img{
